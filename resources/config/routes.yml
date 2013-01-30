@@ -1,0 +1,11 @@
+Foursquare_Index:
+    pattern:  /foursquare/
+    defaults: { _controller: "FoursquareModule:Index:index"}
+	
+Foursquare_IndexWithVenues:
+    pattern:  /foursquare/
+    defaults: { _controller: "FoursquareModule:Index:indexWithVenues"}	
+
+Foursquare_Venues:
+    pattern: /foursquare/getVenues/lat/{lat}/lng/{lng}
+    defaults: { _controller: "FoursquareModule:Index:getVenues" }
