@@ -1,5 +1,5 @@
 <?php
-namespace FourSquareModule;
+namespace FoursquareModule;
 
 use PPI\Module\RoutesProviderInterface,
     PPI\Module\Module as BaseModule,
@@ -8,7 +8,7 @@ use PPI\Module\RoutesProviderInterface,
 
 class Module extends BaseModule
 {
-    protected $_moduleName = 'FourSquareModule';
+    protected $_moduleName = 'FoursquareModule';
 
     public function init($e)
     {
