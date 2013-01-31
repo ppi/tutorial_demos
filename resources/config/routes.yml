@@ -1,7 +1,7 @@
 Foursquare_Index:
     pattern:  /foursquare/
     defaults: { _controller: "FoursquareModule:Index:index"}
-	
+
 Foursquare_IndexWithVenues:
     pattern:  /foursquare/
     defaults: { _controller: "FoursquareModule:Index:indexWithVenues"}	
