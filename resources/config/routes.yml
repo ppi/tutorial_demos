@@ -3,7 +3,7 @@ Foursquare_Index:
     defaults: { _controller: "FoursquareModule:Index:index"}
 
 Foursquare_IndexWithVenues:
-    pattern:  /foursquare/
+    pattern:  /foursquare/venues
     defaults: { _controller: "FoursquareModule:Index:indexWithVenues"}	
 
 Foursquare_Venues:
